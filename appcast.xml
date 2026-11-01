@@ -3,6 +3,17 @@
     <channel>
         <title>Assembly</title>
         <item>
+            <title>0.6.2</title>
+            <pubDate>Sat, 31 Oct 2026 22:57:51 -0400</pubDate>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly-0.6.2.zip" length="22201596" type="application/octet-stream" sparkle:edSignature="lYacxyDuGRI3ILv+u5feoJ0F8rV+pGSZ9RmbSvjMKlQ4uMfyYJNrxaNN4VII4/Joo9q4mJkbe/bxEmCd2N7NBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly48-47.delta" sparkle:deltaFrom="47" length="1494566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IXgHFunZiDBhJkoa6Um0fF+NdQCedd02RqSzi21bt0jOmgqsTyB3G57jue2qJzFAaOxsv0haXqfZm5odZ7PIBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.6.1</title>
             <pubDate>Sat, 31 Oct 2026 21:47:05 -0400</pubDate>
             <sparkle:version>47</sparkle:version>
