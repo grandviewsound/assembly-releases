@@ -3,6 +3,30 @@
     <channel>
         <title>Assembly</title>
         <item>
+            <title>0.6.4</title>
+            <pubDate>Mon, 02 Nov 2026 20:33:37 -0500</pubDate>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>0.6.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Assembly 0.6.4</h2>
+<p>Picture tracks from an EDL:</p>
+<ul>
+  <li><b>Scene tracks for series.</b> On slates that start with the episode,
+    like <code>201-101C_02A</code>, the scene is now read after the episode
+    — scene 101, setup C — instead of the episode number becoming every
+    shot's scene. Slates from other episodes cut into the show no longer
+    stop this from working, and setups, unit letters and inserted scenes
+    are read the same way as on other slates.</li>
+</ul>
+]]></description>
+            <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly-0.6.4.zip" length="22218797" type="application/octet-stream" sparkle:edSignature="z9X8HbrISQTPSqEU4x4SDWATkTYl1Mbo00QotcNdTFk1RxwnWrMIf8szZtQcQHhVVDQN3kOlU9qxIR5iguHCCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly50-49.delta" sparkle:deltaFrom="49" length="927690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RnVqMLxTsWc/b/1uiNEfkEpXhCB3WG2jCet4pepb/JpDElVNYeAw3lX+HfQWhhz3RXRETNctt7qxruYLU0quCA=="/>
+                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly50-48.delta" sparkle:deltaFrom="48" length="1241222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6VIDeJ55unJ9lTGPSl0J7eZobnVIsX7OXkaXYUvI/0aAjdfibKnky4CBVgLnAF+5AfxOL77MRQ7DVwQ0WwNEAw=="/>
+                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly50-47.delta" sparkle:deltaFrom="47" length="1602818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="b006ECi2mR8C53EA4O13hE0VkPShPzhISiDGR6z/d5dV/QwN2ypNIJuyQE/RwuJ3s2xJC+KgRssXhH1SdPdUBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.6.3</title>
             <pubDate>Mon, 02 Nov 2026 17:25:37 -0500</pubDate>
             <sparkle:version>49</sparkle:version>
@@ -43,14 +67,6 @@
             <sparkle:deltas>
                 <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly48-47.delta" sparkle:deltaFrom="47" length="1494566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IXgHFunZiDBhJkoa6Um0fF+NdQCedd02RqSzi21bt0jOmgqsTyB3G57jue2qJzFAaOxsv0haXqfZm5odZ7PIBQ=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.6.1</title>
-            <pubDate>Sat, 31 Oct 2026 21:47:05 -0400</pubDate>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly-0.6.1.zip" length="22124444" type="application/octet-stream" sparkle:edSignature="5RBQF9z1WeNmG7YszUWXVfpskf04DL8HggELh5Qtqa6ojaZU2eYPQlll8bjC4FJvLVYLl+G2HzQ/t8up+7WWDA=="/>
         </item>
     </channel>
 </rss>
