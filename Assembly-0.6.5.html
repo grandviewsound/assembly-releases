@@ -1,0 +1,42 @@
+<h2>Assembly 0.6.5</h2>
+<p>Aligning lavs to the boom:</p>
+<ul>
+  <li><b>Batch Align Sound Rolls (Experimental).</b> This aligns the lavs of
+    whole sound rolls, with no Pro Tools session. Tick the folders to align,
+    choose a destination, and each roll is written there in the same folder
+    structure, with your file-name text added: <code>C12P02T01.WAV</code>
+    becomes <code>C12P02T01-ALN.WAV</code>.
+    <ul>
+      <li>Every channel and all of the roll's metadata are kept. Each copy
+        gets a new UMID, so Pro Tools never relinks it as the original
+        roll.</li>
+      <li>The sound rolls themselves are only ever read.</li>
+      <li>Rolls with nothing to align can be copied over unchanged, so the
+        destination holds every roll.</li>
+      <li><b>Stop</b> keeps every finished roll, and <b>Align</b> carries on
+        where it left off.</li>
+      <li>A roll too long for this Mac's memory is listed with the reason
+        instead of being aligned. That's over 12 minutes on 8 GB, or 24
+        minutes on 16 GB.</li>
+      <li>After a run, <b>Save Diagnostic Report…</b> shows what happened to
+        each channel, with each new roll checked against its original.</li>
+      <li>Start with a small folder, a day or a card, and listen to it before
+        doing the rest.</li>
+    </ul></li>
+  <li><b>Three alignment modes</b>, in Align Selected Clips and the batch
+    alike:
+    <ul>
+      <li><b>Boom 1:</b> everything aligns to the take's Boom 1, as
+        before.</li>
+      <li><b>Most prominent boom (Experimental):</b> moment to moment, each
+        lav follows whichever boom is carrying the scene, crossfading where
+        that changes. The booms are left as recorded.</li>
+      <li><b>Most prominent boom, booms aligned (Experimental):</b> the same,
+        and the booms are also aligned to each other.</li>
+    </ul>
+    A boom that hears nothing the take's other mics hear never leads, however
+    loud it is. A take with one boom aligns the same way in every mode.</li>
+  <li><b>An Align button in the toolbar</b> offers Align Selected Clips and
+    Batch Align Sound Rolls.</li>
+  <li><b>Align Selected Clips is now marked experimental.</b></li>
+</ul>

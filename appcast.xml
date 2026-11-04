@@ -3,6 +3,63 @@
     <channel>
         <title>Assembly</title>
         <item>
+            <title>0.6.5</title>
+            <pubDate>Wed, 04 Nov 2026 10:33:26 -0500</pubDate>
+            <sparkle:version>52</sparkle:version>
+            <sparkle:shortVersionString>0.6.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Assembly 0.6.5</h2>
+<p>Aligning lavs to the boom:</p>
+<ul>
+  <li><b>Batch Align Sound Rolls (Experimental).</b> This aligns the lavs of
+    whole sound rolls, with no Pro Tools session. Tick the folders to align,
+    choose a destination, and each roll is written there in the same folder
+    structure, with your file-name text added: <code>C12P02T01.WAV</code>
+    becomes <code>C12P02T01-ALN.WAV</code>.
+    <ul>
+      <li>Every channel and all of the roll's metadata are kept. Each copy
+        gets a new UMID, so Pro Tools never relinks it as the original
+        roll.</li>
+      <li>The sound rolls themselves are only ever read.</li>
+      <li>Rolls with nothing to align can be copied over unchanged, so the
+        destination holds every roll.</li>
+      <li><b>Stop</b> keeps every finished roll, and <b>Align</b> carries on
+        where it left off.</li>
+      <li>A roll too long for this Mac's memory is listed with the reason
+        instead of being aligned. That's over 12 minutes on 8 GB, or 24
+        minutes on 16 GB.</li>
+      <li>After a run, <b>Save Diagnostic Report…</b> shows what happened to
+        each channel, with each new roll checked against its original.</li>
+      <li>Start with a small folder, a day or a card, and listen to it before
+        doing the rest.</li>
+    </ul></li>
+  <li><b>Three alignment modes</b>, in Align Selected Clips and the batch
+    alike:
+    <ul>
+      <li><b>Boom 1:</b> everything aligns to the take's Boom 1, as
+        before.</li>
+      <li><b>Most prominent boom (Experimental):</b> moment to moment, each
+        lav follows whichever boom is carrying the scene, crossfading where
+        that changes. The booms are left as recorded.</li>
+      <li><b>Most prominent boom, booms aligned (Experimental):</b> the same,
+        and the booms are also aligned to each other.</li>
+    </ul>
+    A boom that hears nothing the take's other mics hear never leads, however
+    loud it is. A take with one boom aligns the same way in every mode.</li>
+  <li><b>An Align button in the toolbar</b> offers Align Selected Clips and
+    Batch Align Sound Rolls.</li>
+  <li><b>Align Selected Clips is now marked experimental.</b></li>
+</ul>
+]]></description>
+            <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly-0.6.5.zip" length="22681558" type="application/octet-stream" sparkle:edSignature="N+KbccBRtahCA3B8IXoSt550gnPe//dVdLa6GxtzzLNO0oDxVQE4GLT7ZNCa7YbVy0ai95YmkQm+ACAotde1CQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly52-50.delta" sparkle:deltaFrom="50" length="2256494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5rWhDWN93dAbcxVxh0LXUZM3blMjxfMV4lga7F3lcgM1lUGyh2c7vXRbx1dVv81eFTlIfzsBYaWbKbqSEk/qCg=="/>
+                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly52-49.delta" sparkle:deltaFrom="49" length="2270386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="b2cHmMiv9C6QZ21jKfCbcnvN4r/NYL17qDwY7+06XOlb5Qox5sbzr5umj7NmRgl0rsj2RfZiEYIsq5bUymFHAw=="/>
+                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly52-48.delta" sparkle:deltaFrom="48" length="2303354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uGCv2UL4XiRTgbV/ppzcN+gXhhhN339lI0uXpCrP5mtfkZaFcr5FOb+DrcocciPloDaqa+t1GLns8r89f5URDA=="/>
+                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly52-47.delta" sparkle:deltaFrom="47" length="2419510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p94wNGMSKoJOIwlOYghjjO4Yg4PzkmzxeZDLgvsOSKPVmRyH4xF6JVDPtRsWbTiHeun6mkGiTuX3rV8GbW3fBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.6.4</title>
             <pubDate>Mon, 02 Nov 2026 20:33:37 -0500</pubDate>
             <sparkle:version>50</sparkle:version>
@@ -55,17 +112,6 @@
             <sparkle:deltas>
                 <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly49-48.delta" sparkle:deltaFrom="48" length="1216266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="l/jRxFCLq9ov22xz+eTKVI4PYl/bYBrJ7vENiT/A7cHNjIt4RKvULlYfanXm53gZuXRcSy/QVzd17MPeXOKSBg=="/>
                 <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly49-47.delta" sparkle:deltaFrom="47" length="1592634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pB4hvwV6iXJfNG98MRed9nc7e3IUGe5qqX75BzoAXuMFkW6VzD8gmowyQdbdoiyezRCUEwzworNyTba28XJgDw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.6.2</title>
-            <pubDate>Sat, 31 Oct 2026 22:57:51 -0400</pubDate>
-            <sparkle:version>48</sparkle:version>
-            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly-0.6.2.zip" length="22201596" type="application/octet-stream" sparkle:edSignature="lYacxyDuGRI3ILv+u5feoJ0F8rV+pGSZ9RmbSvjMKlQ4uMfyYJNrxaNN4VII4/Joo9q4mJkbe/bxEmCd2N7NBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly48-47.delta" sparkle:deltaFrom="47" length="1494566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IXgHFunZiDBhJkoa6Um0fF+NdQCedd02RqSzi21bt0jOmgqsTyB3G57jue2qJzFAaOxsv0haXqfZm5odZ7PIBQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
