@@ -1,0 +1,20 @@
+<h2>Assembly 0.6.7</h2>
+<p>Aligning lavs to the boom:</p>
+<ul>
+  <li><b>Align Selected Clips no longer refuses clips that start one sample
+    before a frame.</b> Assembled clips often start there, and they were being
+    left alone with the reason "no exact start in its roll".</li>
+  <li><b>A report track for alignments.</b> A track named like
+    <b>ALN Report</b> marks each place worth looking at:
+    <ul>
+      <li><b>NOT ALIGNED:</b> refused before any audio was read.</li>
+      <li><b>LEFT ALONE:</b> read, and deliberately not changed.</li>
+      <li><b>FAILED:</b> could not be rendered.</li>
+      <li><b>CHECK:</b> aligned, but listen here first.</li>
+      <li>Each take gets one entry saying how many clips and why, and
+        <b>Save Diagnostic Report…</b> lists every clip behind it.</li>
+      <li>Turn it off with <b>Report</b> in the Align sheet.</li>
+    </ul></li>
+  <li><b>When nothing can be aligned, an alert says why,</b> where before
+    there was only a line in the status bar.</li>
+</ul>
