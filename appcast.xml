@@ -3,6 +3,47 @@
     <channel>
         <title>Assembly</title>
         <item>
+            <title>0.6.9</title>
+            <pubDate>Fri, 06 Nov 2026 17:58:42 -0500</pubDate>
+            <sparkle:version>58</sparkle:version>
+            <sparkle:shortVersionString>0.6.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Assembly 0.6.9</h2>
+<p>The toolbar:</p>
+<ul>
+  <li><b>Every button now has its name under it:</b> Match, Align, Scene/Shot,
+    Diagnostic and Help. Match and Scene/Shot are new, and drop down with their
+    commands.</li>
+  <li><b>Connecting to Pro Tools has moved.</b> Connect and Disconnect are in
+    the Match button now, and step 2 always says whether Assembly is connected,
+    even before a scan.</li>
+</ul>
+<p>Assembling:</p>
+<ul>
+  <li><b>Tracks can go in a folder.</b> A new option in the Tracks card puts an
+    assembly's tracks in a folder track named for your prefix, such as
+    <code>ASM Assembly</code>. It is off until you turn it on.</li>
+  <li><b>Stop finishes the step it is on, then stops.</b> It used to report a
+    connection failure at that step.</li>
+  <li><b>The custom track color no longer comes up empty.</b> If Pro Tools does
+    not give Assembly its palette, the picker now says so and tries again each
+    time it opens.</li>
+</ul>
+<p>Aligning:</p>
+<ul>
+  <li><b>The progress window says Aligning</b> rather than Assembling.</li>
+</ul>
+]]></description>
+            <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly-0.6.9.zip" length="22840470" type="application/octet-stream" sparkle:edSignature="77CbzT85tS7PRv+4V63Dq/kqVyoCr/1arf81hqD1jdPjed6Wh/ptGtuutUSY+NO94UKIT3Qg4CcHRL4GFSlWBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly58-56.delta" sparkle:deltaFrom="56" length="1915694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6s0f5onq9UhDN2cNsn4lzAoPbl3/Ax7vK3nc0dee9k74J0V5aCh+SzLLqOKrZeTZ8J9vHsnaDB0U54ZBAOWiBw=="/>
+                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly58-55.delta" sparkle:deltaFrom="55" length="1897034" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iprxQJv6JHjlwI7eeX3xTD35fCfAiTmqvJ9XaGgo5ZJfEK+Y+xgdAUTuE8xbXGW7QQJJLFGX99udlNqEKZ8BCA=="/>
+                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly58-54.delta" sparkle:deltaFrom="54" length="2090642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jVzJJs4EDRggwLlimoWWzgYJvAObb0fC3SNaD5mjRYVAESG+Cmnp/fnMGfeZmmxezhxh1iHJlNZUAjpTbuBEBA=="/>
+                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly58-52.delta" sparkle:deltaFrom="52" length="2233906" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c2xfi/h424e37zoCN6g4M9gVzQMkiTlMfhCgGbgaXqGnbblak86xG/NgrJnPrQo7bmWwGay36w6T+G+TKCz/Aw=="/>
+                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly58-50.delta" sparkle:deltaFrom="50" length="2792382" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bh4MODnELHpg+WnQVOmgFavHDe+hxJLS+jKc1tgDAnfqQl4rDfmmThg4KdiDEasTAhYcOUNnpAo8a3ZjrVxJBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.6.8</title>
             <pubDate>Fri, 06 Nov 2026 10:45:09 -0500</pubDate>
             <sparkle:version>56</sparkle:version>
@@ -71,43 +112,6 @@
                 <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly55-50.delta" sparkle:deltaFrom="50" length="2546482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PmaNKjpAREiStQLm2nKAKgNgIBXT0rxeI5d3SLLEU+Em/XWYzln9+BOShgFn89JAaaYPpP0QY6BIz1PAvd+CCQ=="/>
                 <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly55-49.delta" sparkle:deltaFrom="49" length="2577494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NaXtBpJBXznfpjvCFQa1ZlF88L4zA2SBlQAqV2sEfZU0jPjykhSuS2sMl0ZxBr/tL13sP84JWEaCfniwKiXTDQ=="/>
                 <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly55-48.delta" sparkle:deltaFrom="48" length="2589386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DlGqC9hlJBRkGzgkKmxNfgEyx/26hmIeHfF/fbrjNpaIGDslclafcKwdQH9khHjiYXtoGboIsBowd0jwO63gDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.6.6</title>
-            <pubDate>Thu, 05 Nov 2026 11:10:02 -0500</pubDate>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>0.6.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Assembly 0.6.6</h2>
-<p>Picture tracks:</p>
-<ul>
-  <li><b>Color scenes by INT and EXT.</b> With the shooting script added, the
-    new <b>Scene color</b> choice colors each scene by where its heading sets
-    it: one color for INT, one for EXT, one for INT/EXT.
-    <ul>
-      <li>Click a swatch to choose its color, or click the round arrow for
-        three new random colors, as many times as you like.</li>
-      <li>Shots set to <b>Same as its scene</b> take the scene's color, and
-        <b>Shades of the scene color</b> gives each angle a shade of it.</li>
-      <li>A scene the script doesn't have is left uncolored.</li>
-      <li><b>Each scene its own</b> colors scenes one by one, as before.</li>
-    </ul></li>
-  <li><b>Batch export no longer waits for Pro Tools.</b> When Assembly isn't
-    connected, it goes straight to reading the EDLs and shows its progress.
-    The frame rate and sample rate then start at 24 fps and 48 kHz, so check
-    them in the review.</li>
-</ul>
-<p>Also: a <b>Help</b> button at the right end of the main window's toolbar
-opens Assembly Help.</p>
-]]></description>
-            <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly-0.6.6.zip" length="22749575" type="application/octet-stream" sparkle:edSignature="lhqEEvutMzd5Etc22qgzpeBeqj7BbgEqyPf36Xv6n6zO7AS40Jcc2NWpGnm7x92kNjxEBRcvwewi0wPj+4N2DQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly54-52.delta" sparkle:deltaFrom="52" length="1678830" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4mZau+vRP6xwQnPpkE8vM9+0zYFUeNUDZTgSCLzGa5+oPMlrTYXfHeFSbuqYSDYZl/HPoDI39EmhXbnfZqQeBw=="/>
-                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly54-50.delta" sparkle:deltaFrom="50" length="2420626" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MYnJWzx0ZyyjtqfqhPBm+mdet7XAGqpl6vlWvJedplaUeYF5NDmX8+w8inHqnbZUkHCRDg3Hw7+tnZ+OcCLFCA=="/>
-                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly54-49.delta" sparkle:deltaFrom="49" length="2424010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q1SLzbAkbTr2/ePjrK5Z0pwiQmhm0CdgLaKVUQnxDLWbGIeQu+/g/c1k+AjPLZzJ2K7Jf3JlO4D8WHg/OjUPBQ=="/>
-                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly54-48.delta" sparkle:deltaFrom="48" length="2468222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dcscNE9MI09udGyzj3VAuFMw9l6e1ro8EpH80klGw7U18W8BvwVB9aN16N8zyGR15/AdmxHqhyF57CBzbB5ODg=="/>
-                <enclosure url="https://grandviewsound.github.io/assembly-releases/Assembly54-47.delta" sparkle:deltaFrom="47" length="2562330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="974464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eCyQbStSTpRp5sUJW2zqiOiw41XKMcGwWCl+YxzKas4fSuOpFtEAR74egX60Ju9EXGLNluyJKJQ/GdfkgiQ6DQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
