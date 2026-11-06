@@ -1,0 +1,19 @@
+<h2>Assembly 0.6.8</h2>
+<p>Picture tracks:</p>
+<ul>
+  <li><b>Scene numbers with a letter inside them now read.</b> Slates like
+    <code>2A7-4</code> and <code>V2X38H-1</code> were missed, which left holes
+    on the Scene track. Scripts that number scenes this way read too.</li>
+  <li><b>A 2 pop is no longer read as a scene.</b> <code>2 POP</code> made a
+    one-frame scene 2 at the tail.</li>
+  <li><b>A warning when a script hardly fits the cut.</b> Assembly remembers
+    the script for later reels, so the last show's can still be loaded. The
+    review now warns if it names almost none of the cut's scenes. <b>Clear</b>
+    removes it.</li>
+</ul>
+<p>Aligning lavs to the boom:</p>
+<ul>
+  <li><b>The report track no longer marks flipped polarity.</b> Turning a lav
+    over to match its boom is routine, and one marked its whole take. The
+    diagnostic report counts them instead.</li>
+</ul>
